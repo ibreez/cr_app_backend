@@ -1,0 +1,6 @@
+{
+  "name": "CR GST Purchase Bill Entry",
+  "description": "Maldives Tax & Accounting System covering GST, NWT, Income Tax, and offline tax filing generation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "token": "ff4e555ac3f65678879637d9ec7a218256b00d8baf58d3d99e74c676ec56065a",
+    "tokenHash": "7bf6af919a836a3b054a7fe7e29dbad005efddf75c27d8a6b40d338e7a965625",
+    "userId": "user-ibreez",
+    "tenantId": "outlet-all",
+    "role": "super_admin",
+    "username": "ibreez",
+    "createdAt": "2026-11-21T12:58:33.266Z",
+    "expiresAt": "2026-11-22T12:58:33.266Z",
+    "lastActiveAt": "2026-11-21T12:58:33.266Z",
+    "ipAddress": "124.195.207.98, 169.254.169.126",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+  },
+  {
+    "token": "1c300fe6c79ed3469cf9a0db244e83a0f9d3b51c32764a8638b49db9d96711d7",
+    "tokenHash": "a28e4b40f3dd11be95607f94e84da8b8fbde3ff5c2d1b5441dd6b3204615675b",
+    "userId": "user-admin",
+    "tenantId": "outlet-all",
+    "role": "super_admin",
+    "username": "admin",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "createdAt": "2026-11-21T16:00:06.514Z",
+    "expiresAt": "2026-11-22T16:00:06.514Z",
+    "lastActiveAt": "2026-11-21T16:00:06.514Z"
+  },
+  {
+    "token": "3412521a7c217189543da2f7ccd7fce47e5e34c9aa304d3f7da44de29e6a1719",
+    "tokenHash": "e2dcd7ac749f6e7b739bf643e1d03c51d3e72434dfcde1b74a951fdf92d755d5",
+    "userId": "user-admin",
+    "tenantId": "outlet-all",
+    "role": "super_admin",
+    "username": "admin",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "createdAt": "2026-11-21T16:11:02.744Z",
+    "expiresAt": "2026-11-22T16:11:02.744Z",
+    "lastActiveAt": "2026-11-21T16:11:02.744Z"
+  },
+  {
+    "token": "01f140c203af645c3aad857773afd18ff5f6a3351414b0fa0ec2be3ebc38d09a",
+    "tokenHash": "1b25cf9d4516cfad0bac44e27c16c6f7808650b5d89b16344089335285a307a8",
+    "userId": "user-ibreez",
+    "tenantId": "outlet-all",
+    "role": "super_admin",
+    "username": "ibreez",
+    "ipAddress": "124.195.207.98, 169.254.169.126",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "createdAt": "2026-11-21T16:14:45.210Z",
+    "expiresAt": "2026-11-22T16:14:45.210Z",
+    "lastActiveAt": "2026-11-21T16:14:45.210Z"
+  },
+  {
+    "token": "8f4e523668c32b54fa11e19c0d43f51fc7a1f96ac1067713088f49c7631b32e2",
+    "tokenHash": "b575c3ea73a5cee849421460159d1aaa75997af10d8797568e2c82d1d177383a",
+    "userId": "user-admin",
+    "tenantId": "outlet-all",
+    "role": "super_admin",
+    "username": "admin",
+    "ipAddress": "127.0.0.1",
+    "createdAt": "2026-11-21T16:19:51.435Z",
+    "expiresAt": "2026-11-22T16:19:51.435Z",
+    "lastActiveAt": "2026-11-21T16:19:51.435Z"
+  },
+  {
+    "token": "adb13d29b7cc96687ad30448c2824d172e6d477b68559bafc7a68e6a53d61e5f",
+    "tokenHash": "aa9d7cd0463fa0d9ee9fc462aaa65f575c96fbbef5da8622d5c7f35160747868",
+    "userId": "user-male",
+    "tenantId": "outlet-1",
+    "role": "outlet_user",
+    "username": "male_user",
+    "ipAddress": "127.0.0.1",
+    "createdAt": "2026-11-21T16:19:58.081Z",
+    "expiresAt": "2026-11-22T16:19:58.081Z",
+    "lastActiveAt": "2026-11-21T16:19:58.081Z"
+  }
+]

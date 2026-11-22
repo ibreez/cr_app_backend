@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ast-003",
+    "outlet_id": "outlet-2",
+    "outlet_name": "Hulhumale' Outlet",
+    "asset_name": "Delivery Scooter (Honda Click 125)",
+    "asset_class": "Vehicles & Transport",
+    "purchase_date": "2025-06-20",
+    "cost_price": 38000,
+    "mira_rate": 20,
+    "opening_wdv": 38000,
+    "capital_allowance": 7600,
+    "closing_wdv": 30400,
+    "supplier": "Sheesha Motors Maldives",
+    "notes": "Food delivery vehicle"
+  },
+  {
+    "id": "ast-002",
+    "outlet_id": "outlet-1",
+    "outlet_name": "Male' Main Branch",
+    "asset_name": "Commercial Espresso Machine & Coffee Grinder",
+    "asset_class": "Plant & Equipment / Machinery",
+    "purchase_date": "2025-03-10",
+    "cost_price": 85000,
+    "mira_rate": 10,
+    "opening_wdv": 85000,
+    "capital_allowance": 8500,
+    "closing_wdv": 76500,
+    "supplier": "Maldives Kitchen Equipment Pvt Ltd",
+    "notes": "3-Group La Marzocco espresso machine"
+  },
+  {
+    "id": "ast-001",
+    "outlet_id": "outlet-1",
+    "outlet_name": "Male' Main Branch",
+    "asset_name": "POS Hardware & Server System",
+    "asset_class": "Computer Software & Hardware",
+    "purchase_date": "2025-01-15",
+    "cost_price": 45000,
+    "mira_rate": 33.33,
+    "opening_wdv": 45000,
+    "capital_allowance": 14998.5,
+    "closing_wdv": 30001.5,
+    "supplier": "Alpha Technology Pvt Ltd",
+    "notes": "Main POS terminals and kitchen display system"
+  }
+]

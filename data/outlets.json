@@ -1,0 +1,46 @@
+[
+  {
+    "id": "outlet-3",
+    "name": "Coffee residence X'Clusive",
+    "code": "CF-02",
+    "tin": "1000003GST501",
+    "address": "Nirolhu Magu",
+    "phone": "+960 9404949",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z",
+    "updatedAt": "2026-11-21T13:04:10.832Z"
+  },
+  {
+    "id": "outlet-1",
+    "name": "Coffee Residence Male",
+    "code": "CF-01",
+    "tin": "133566GST501",
+    "address": "Meheli Magu, Male', Maldives",
+    "phone": "+960 332-5559",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z",
+    "updatedAt": "2026-11-21T13:04:52.679Z"
+  },
+  {
+    "id": "outlet-2",
+    "name": "Dinners Residence",
+    "code": "DR-01",
+    "tin": "1000002GST502",
+    "address": "Burevi Gas Magu, Hulhumale', Maldives",
+    "phone": "+960 9404949",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z",
+    "updatedAt": "2026-11-21T13:05:33.043Z"
+  },
+  {
+    "id": "outlet-1795266369666-3pzo",
+    "name": "Light Studio",
+    "code": "LS-01",
+    "tin": "10000011GST501",
+    "address": "Majeedhee Magu",
+    "phone": "+960 9222330",
+    "status": "active",
+    "createdAt": "2026-11-21T13:06:09.666Z",
+    "updatedAt": "2026-11-21T13:06:09.666Z"
+  }
+]

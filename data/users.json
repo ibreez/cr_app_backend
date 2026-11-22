@@ -1,0 +1,61 @@
+[
+  {
+    "id": "user-maafushi",
+    "name": "XClusive Manager",
+    "email": "xclusive@crmaldives.com",
+    "username": "test_user",
+    "role": "outlet_user",
+    "outlet_id": "outlet-3",
+    "outlet_name": "Coffee residence X'Clusive",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z"
+  },
+  {
+    "id": "user-ibreez",
+    "name": "Ibreez Super Admin",
+    "email": "ibreez@crmaldives.com",
+    "username": "ibreez",
+    "role": "super_admin",
+    "outlet_id": null,
+    "outlet_name": "All Outlets (System Admin)",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z",
+    "lastLogin": "2026-11-21T16:14:44.981Z"
+  },
+  {
+    "id": "user-male",
+    "name": "Male' Manager",
+    "email": "male@crmaldives.com",
+    "username": "male_user",
+    "role": "outlet_user",
+    "outlet_id": "outlet-1",
+    "outlet_name": "Coffee Residence Male",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z",
+    "lastLogin": "2026-11-21T16:19:57.629Z"
+  },
+  {
+    "id": "user-admin",
+    "name": "Super Admin",
+    "email": "admin@crmaldives.com",
+    "username": "admin",
+    "role": "super_admin",
+    "outlet_id": null,
+    "outlet_name": "All Outlets (System Admin)",
+    "status": "active",
+    "createdAt": "2026-08-22T12:38:50.380Z",
+    "lastLogin": "2026-11-21T16:42:25.899Z"
+  },
+  {
+    "id": "user-1795277628205-izmm",
+    "name": "test",
+    "email": "ibryxx@gmail.com",
+    "username": "test",
+    "role": "outlet_user",
+    "outlet_id": "outlet-3",
+    "outlet_name": "Coffee residence X'Clusive",
+    "status": "active",
+    "createdAt": "2026-11-21T16:13:48.205Z",
+    "lastLogin": "2026-11-21T16:14:05.801Z"
+  }
+]

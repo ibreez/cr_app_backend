@@ -1,0 +1,137 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0.0",
+    "backupId": "DR-BACKUP-1795252409736-CAA03F98",
+    "timestamp": "2026-11-21T09:13:29.736Z",
+    "environment": "development",
+    "backupType": "FULL",
+    "databaseChecksum": "5a128b695d0c9d8e64a21f908759630642829501d031e3a1e79a40bf0145ddeb",
+    "documentsChecksum": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "auditTrailChecksum": "acf8222d85fb66b46083b6b4b8d96a20625cf755c3f57fd0268a8baee6208bc4",
+    "filingPackagesChecksum": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "overallChecksum": "7e8287a83592cf2fe942ac88f2e7025d726bf7eb7fe04b0af4183318739b7587",
+    "stats": {
+      "tenantCount": 0,
+      "journalCount": 0,
+      "billCount": 0,
+      "auditEventCount": 4,
+      "documentCount": 0,
+      "filingPackageCount": 0,
+      "totalSizeBytes": 3236
+    },
+    "auditChainHeadHash": "62b54aecdd4cb79d7f125cfcce0d14b370d5f01a4dca781711754accb6d76ef4"
+  },
+  "database": {
+    "tenants": [],
+    "users": [],
+    "accounts": [],
+    "accountingPeriods": [],
+    "journals": [],
+    "bills": [],
+    "taxCalculations": [],
+    "taxLossLots": [],
+    "fixedAssets": [],
+    "metadata": {
+      "totalRecords": 0,
+      "schemaVersion": "1.0",
+      "exportedAt": "2026-11-21T09:13:29.736Z"
+    }
+  },
+  "documents": [],
+  "auditTrail": [
+    {
+      "id": "AUD-1795252409683-062d7e0b",
+      "tenantId": "TENANT-MALE-RETAIL-01",
+      "actorId": "USER-ADMIN",
+      "timestamp": "2026-11-21T09:13:29.683Z",
+      "eventType": "PERIOD_STATE_TRANSITION",
+      "entityType": "PERIOD",
+      "entityId": "prd-2026-m01",
+      "beforeHash": null,
+      "afterHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "metadata": {
+        "action": "OPEN_PERIOD",
+        "periodCode": "2026-M01"
+      },
+      "correlationId": "CORR-1795252409684-788c79",
+      "previousEventHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "eventHash": "9d6f65e1c0d586e0db0118a5fbf89e3a72a3709ee652ddeeb6fbedb624c1e466",
+      "eventId": "AUD-1795252409683-062d7e0b",
+      "userId": "USER-ADMIN",
+      "action": "PERIOD_STATE_TRANSITION"
+    },
+    {
+      "id": "AUD-1795252409685-d52bdcde",
+      "tenantId": "TENANT-MALE-RETAIL-01",
+      "actorId": "USER-ACCOUNTANT",
+      "timestamp": "2026-11-21T09:13:29.685Z",
+      "eventType": "JOURNAL_POSTING",
+      "entityType": "JOURNAL",
+      "entityId": "jnl-001",
+      "beforeHash": null,
+      "afterHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "metadata": {
+        "reference": "INV-2026-SUPPLIER-01",
+        "amount": 216000
+      },
+      "correlationId": "CORR-1795252409685-886d19",
+      "previousEventHash": "9d6f65e1c0d586e0db0118a5fbf89e3a72a3709ee652ddeeb6fbedb624c1e466",
+      "eventHash": "07c4b55bc04d29c9110287f2d42d6e5e083e68a2d5c978d5fc9da626578dbc7d",
+      "eventId": "AUD-1795252409685-d52bdcde",
+      "userId": "USER-ACCOUNTANT",
+      "action": "JOURNAL_POSTING"
+    },
+    {
+      "id": "AUD-1795252409685-64ad9954",
+      "tenantId": "TENANT-MALE-RETAIL-01",
+      "actorId": "USER-TAX-MANAGER",
+      "timestamp": "2026-11-21T09:13:29.685Z",
+      "eventType": "TAX_CALCULATION",
+      "entityType": "TAX_CALCULATION",
+      "entityId": "calc-2026-001",
+      "beforeHash": null,
+      "afterHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "metadata": {
+        "taxableIncome": 1500000,
+        "taxLiability": 150000
+      },
+      "correlationId": "CORR-1795252409685-a0e7e4",
+      "previousEventHash": "07c4b55bc04d29c9110287f2d42d6e5e083e68a2d5c978d5fc9da626578dbc7d",
+      "eventHash": "bb2511a0516c7a1c316a663ff71e4712a67355d758aee20cb5f0a8ef5f59f5aa",
+      "eventId": "AUD-1795252409685-64ad9954",
+      "userId": "USER-TAX-MANAGER",
+      "action": "TAX_CALCULATION"
+    },
+    {
+      "id": "AUD-1795252409723-87d468fe",
+      "tenantId": "TENANT-MALE-RETAIL-01",
+      "actorId": "DR_SYSTEM",
+      "timestamp": "2026-11-21T09:13:29.723Z",
+      "eventType": "UPDATE",
+      "entityType": "TRANSACTION",
+      "entityId": "DR-BACKUP-1795252409706-A5E43CA7",
+      "beforeHash": null,
+      "afterHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "metadata": {
+        "action": "DISASTER_RECOVERY_BACKUP_CREATED",
+        "overallChecksum": "a9b28e61b9be751f5452e8293987fecbcf1feb16386123106117cee27c7b100e",
+        "stats": {
+          "tenantCount": 1,
+          "journalCount": 2,
+          "billCount": 1,
+          "auditEventCount": 3,
+          "documentCount": 1,
+          "filingPackageCount": 1,
+          "totalSizeBytes": 73707
+        }
+      },
+      "correlationId": "CORR-1795252409723-848904",
+      "previousEventHash": "bb2511a0516c7a1c316a663ff71e4712a67355d758aee20cb5f0a8ef5f59f5aa",
+      "eventHash": "62b54aecdd4cb79d7f125cfcce0d14b370d5f01a4dca781711754accb6d76ef4",
+      "eventId": "AUD-1795252409723-87d468fe",
+      "userId": "DR_SYSTEM",
+      "action": "UPDATE"
+    }
+  ],
+  "filingPackages": []
+}
